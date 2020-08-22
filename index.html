@@ -13,8 +13,8 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#">About Ms. Rango</a>
             <a href="#">Body Break!</a>
-            <a href="#">Email Me</a>
-            <a href="#">Text Me</a>
+            <a href="#">Email Ms. Rango</a>
+            <a href="#">Text Ms. Rango</a>
           </div>
           <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Parents </span>
     </div>
@@ -22,8 +22,32 @@
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSI1HZ4fjlwlrYsf35aVQwmIdD2MiluVRQ4hp3iwewJkh-F1Rn0P_ICpQcKeqn2WaHDaottn3E1rwqI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="680" height="499" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>        
     </div>
     <div class="controlpanel">
-        <button class="yesbutton" onclick="YesFunction()">YES</button>
-        <button class="nobutton" onclick="NoFunction()">NO</button>
+        <table>
+            <tr>
+                <td>
+                    <button class="yesbutton" onclick="YesFunction()">YES</button>
+                </td>
+                <td>
+                    <button class="nobutton" onclick="NoFunction()"> NO </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="squarebutton" onclick="SquareFunction()"> □ </button>
+                </td>
+                <td>
+                    <button class="circlebutton" onclick="CircleFunction()"> ○ </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="trianglebutton" onclick="TriangleFunction()"> Δ </button>
+                </td>
+                <td>
+                    <button class="diamondbutton" onclick="DiamondFunction()">♢ </button>
+                </td>
+            </tr>
+        </table>
     </div>
 </div>
 </body>

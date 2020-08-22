@@ -14,50 +14,25 @@ body { /* deals with everything in body, this is mostly for properties that
     font-family: 'Open Sans', sans-serif;
 }
 
-.sidemenu {
-    background-color: var(--main-bg-color);
-    left: 0.1vw;
-}
-
 
 /*when u have a div class, u can set the properites for that class like this*/
 /*to make a div class in vscode in the .html file, write .divclass and then hit tab and itll
 make the ssyntax for u with the name divclass*/
-.pageheader { 
-    overflow: hidden;
-    color: goldenrod;
-    font-size: 2vw;
-    height: 0vw;
-    background-color: whitesmoke;
-    /*all these properites are things i google if i need to change*/
-    /*the colours like goldren rod and whitesmoke are just quick default colours
-    and its me being lazy. would use hex codes or colour variables*/
-}
 
-.welcome{
-    color: white;
-    text-align: left;
-    margin-left: 5vw;
-    margin-top: 1vw;
-    font-size: 1.5vw;
-    font-family: 'Cherry Swash',cursive;
-    text-shadow: 2px 2px 4px #000000;
-}
 
 .slides{
     margin-top: 3vw;
     margin-left: 5vw;
-
 }
 
 /*SIDEBAR*/
 span {
 	color: #ffffff;
-	top: 3vw;
+	top: 0.5vw;
 	float: right;
 	right: 20px;
 	margin-right: 1vw;
-	margin-top: 2vw;
+	margin-top: 0vw;
 }
 
 

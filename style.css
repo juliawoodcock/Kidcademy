@@ -2,6 +2,10 @@
 	--main-bg-color: #27cfed;
 	--sidemenu: #ffffff;
 	--sidemenutext: #363232;
+	--ourgreen: #6cff3f;
+	--ourred: #f23029;
+	--ouryellow: #f7e224;
+	--ourpurple: #c44cf0;
 }
 
 body { 
@@ -14,7 +18,8 @@ body {
 
 .slides{
     margin-top: 3vw;
-    margin-left: 5vw;
+	margin-left: 5vw;
+	float: left;
 }
 
 /*SIDEBAR*/
@@ -68,3 +73,29 @@ span {
   }
 
   /*END OF CODE FOR MENU*/
+
+.controlpanel{
+	float: left;
+	margin-top: 5vw;
+	margin-left: 3vw;
+  }
+
+.yesbutton{
+	font-size: 35px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	background-color: var(--ourgreen);
+	border-radius: 15px;
+	box-shadow: 0 9px rgb(71, 70, 70);
+	text-shadow: 0 0 3px #0a0a0a, 0 0 5px #0000FF;
+  }
+
+.yesbutton:hover {background-color: #4bcc4f}
+
+.yesbutton:active {
+  background-color: var(--ourgreen);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

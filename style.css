@@ -1,3 +1,148 @@
-body {
-    background-color: #BBFFFF ;
+:root {
+    --main-bg-color: #27cfed;
+    /*fun variables for colours*/
+  }
+
+body { /* deals with everything in body, this is mostly for properties that
+    apply to the whole thing*/
+    background-color:var(--main-bg-color);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.sidemenu {
+    background-color: var(--main-bg-color);
+    left: 0.1vw;
+}
+
+
+/*when u have a div class, u can set the properites for that class like this*/
+/*to make a div class in vscode in the .html file, write .divclass and then hit tab and itll
+make the ssyntax for u with the name divclass*/
+.pageheader { 
+    overflow: hidden;
+    color: goldenrod;
+    font-size: 2vw;
+    height: 0vw;
+    background-color: whitesmoke;
+    /*all these properites are things i google if i need to change*/
+    /*the colours like goldren rod and whitesmoke are just quick default colours
+    and its me being lazy. would use hex codes or colour variables*/
+}
+
+.welcome{
+    color: white;
+    text-align: left;
+    margin-left: 5vw;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-family: 'Cherry Swash',cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.slides{
+    margin-top: 2vw;
+    margin-left: 5vw;
+
+}
+
+
+/*STUFF FOR THE SIDE MENU*/
+nav {
+    margin: 27px auto 0;
+	position: relative;
+	width: 590px;
+	height: 50px;
+    background-color: var(--main-bg-color);
+
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: #e67e22;
+}
+
+h1 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 2.5vw;
+	color: #ecf0f1;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Cherry Swash', cursive;
+}
+
+p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+}
+
+span {
+    color: #2BD6B4;
+}
+/*END OF STUFF FOR SIDE MENU*/

@@ -2,23 +2,15 @@
 	--main-bg-color: #27cfed;
 	--sidemenu: #ffffff;
 	--sidemenutext: #363232;
-    /*fun variables for colours*/
   }
 
-body { /* deals with everything in body, this is mostly for properties that
-    apply to the whole thing*/
+body { 
     background-color:var(--main-bg-color);
     width: 100%;
     height: 100%;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
-
-/*when u have a div class, u can set the properites for that class like this*/
-/*to make a div class in vscode in the .html file, write .divclass and then hit tab and itll
-make the ssyntax for u with the name divclass*/
-
 
 .slides{
     margin-top: 3vw;

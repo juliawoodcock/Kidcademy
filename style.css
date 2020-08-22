@@ -2,7 +2,7 @@
 	--main-bg-color: #27cfed;
 	--sidemenu: #ffffff;
 	--sidemenutext: #363232;
-  }
+}
 
 body { 
     background-color:var(--main-bg-color);

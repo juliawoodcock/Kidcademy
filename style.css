@@ -77,7 +77,8 @@ span {
 .controlpanel{
 	float: left;
 	margin-top: 5vw;
-	margin-left: 3vw;
+	margin-left: 3.5vw;
+	margin-right: 8vw;
   }
 
 .yesbutton{
@@ -96,6 +97,27 @@ span {
 
 .yesbutton:active {
   background-color: var(--ourgreen);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.nobutton{
+	font-size: 35px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	background-color: var(--ourred);
+	border-radius: 15px;
+	box-shadow: 0 9px rgb(71, 70, 70);
+	text-shadow: 0 0 3px #0a0a0a, 0 0 5px #0000FF;
+	margin-left: 3vw;
+  }
+
+.nobutton:hover {background-color: #bb3732}
+
+.nobutton:active {
+  background-color: var(--ourred);
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }

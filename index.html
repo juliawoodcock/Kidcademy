@@ -3,29 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <title>Kidcademy - Home</title>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <div class="page">
         <div class="pageheader">
         </div>
-        <div class="sidemenu">
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Blog</a>
-                <a href="#">Email Me</a>
-                <a href="#">Body Break</a>
-                <a href="#">Help Desk</a>
-                <div class="animation start-home"></div>
-            </nav>
-        </div>
-        <div class="welcome">
-            Today's lesson:
-        </div>
-        <div class="slides">
-            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSI1HZ4fjlwlrYsf35aVQwmIdD2MiluVRQ4hp3iwewJkh-F1Rn0P_ICpQcKeqn2WaHDaottn3E1rwqI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="600" height="420" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>        </div>
+       
+    <div class="sidemenu">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Body Break</a>
+            <a href="#">Email Me</a>
+            <a href="#">Text Me</a>
+          </div>
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Resources</span>
     </div>
+    <div class="slides">
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSI1HZ4fjlwlrYsf35aVQwmIdD2MiluVRQ4hp3iwewJkh-F1Rn0P_ICpQcKeqn2WaHDaottn3E1rwqI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="680" height="499" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>        </div>
+</div>
 </body>
 </html>
